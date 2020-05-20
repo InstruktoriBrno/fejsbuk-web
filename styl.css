@@ -1,0 +1,74 @@
+body { 
+ font-family: "Trebuchet MS", "Arial CE", Arial, Verdana, Geneva, Helvetica, 
+sans-serif;
+ color:#000000;
+}
+
+div#preload { display: none; }
+
+img {border:0px}
+
+div {margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; padding:0px}
+
+p.uvodOtazka { font-size: 24px }
+p.jmenoLeft { font-size: 24px; text-align: left; margin-bottom:0px; }
+p.jmenoRight { font-size: 24px; text-align: right; margin-bottom:0px; }
+
+td.tymLeft { font-size: 14px; padding-left:5px }
+td.tymRight { font-size: 14px; padding-right:5px }
+
+#uvod a { width:124px; height:52px; display:block;
+          background: url("images/uvod_inactive.png") 0 0 no-repeat; }
+			
+#uvod a:hover { background: url("images/uvod_hover.png") 0 0 no-repeat; }
+
+#tym a { width:141px; height:83px; display:block;
+         background: url("images/tym_inactive.png") 0 0 no-repeat; }
+		
+#tym a:hover { background: url("images/tym_hover.png") 0 0 no-repeat; }
+
+#info a { width:201px; height:58px; display:block;
+         background: url("images/info_inactive.png") 0 0 no-repeat; }
+		
+#info a:hover { background: url("images/info_hover.png") 0 0 no-repeat; }
+
+
+#prihlaska a { width:227px; height:73px; display:block;
+         background: url("images/prihlaska_inactive.png") 0 0 no-repeat; }
+		
+#prihlaska   a:hover { background: url("images/prihlaska_hover.png") 0 0 no-repeat; }
+
+#prihlaskaTextRam { display:block; position: absolute; left:280px; top:560px; width:300px; height:200px; background-color:#302000; padding: 2px 2px 2px 2px}
+#prihlaskaTextPlocha { display:block; position:relative; width:100%; height:100%; background-color:#AA8050; }
+#prihlaskaTextOkraj { display:block; position:relative; padding:10px 10px 10px 10px; }
+
+#prihlOdkaz a { display:block; width:242px; height:22px; background: url("images/prihlaska_odkaz1a.jpg") 0 0 no-repeat; }
+#prihlOdkaz a:hover { background: url("images/prihlaska_odkaz1b.jpg") 0 0 no-repeat; }
+
+#infoOdkaz a { display:block; width:195px; height:20px; background: url("images/info_odkaz_1a.jpg") 0 0 no-repeat; }
+#infoOdkaz a:hover { background: url("images/info_odkaz_1b.jpg") 0 0 no-repeat; }
+
+#spojeOdkaz a { display:block; width:305px; height:24px; background: url("images/spoje_odkaz_1a.jpg") 0 0 no-repeat; }
+#spojeOdkaz a:hover { background: url("images/spoje_odkaz_1b.jpg") 0 0 no-repeat; }
+
+
+#tymVasek a { display:block; width:70px; height:93px; background: url("images/tym_vasek_small.png") 10px 27px no-repeat; }
+#tymVasek a:hover { background: url("images/tym_vasek_big.png") 0px 0px no-repeat; }
+#imgVasek { display:block; width:70px; height:93px; background: url("images/tym_vasek_big.png") 0 0 no-repeat; }
+
+#tymIlca a { display:block; width:70px; height:93px; background: url("images/tym_ilca_small.png") 10px 27px no-repeat; }
+#tymIlca a:hover { background: url("images/tym_ilca_big.png") 0 0 no-repeat; }
+#imgIlca { display:block; width:70px; height:93px; background: url("images/tym_ilca_big.png") 0 0 no-repeat; }
+
+#tymPeklo a { display:block; width:70px; height:93px; background: url("images/tym_peklo_small.png") 10px 27px no-repeat; }
+#tymPeklo a:hover { background: url("images/tym_peklo_big.png") 0 0 no-repeat; }
+#imgPeklo { display:block; width:70px; height:93px; background: url("images/tym_peklo_big.png") 0 0 no-repeat; }
+
+#tymMlok a { display:block; width:70px; height:93px; background: url("images/tym_mlok_small.png") 10px 27px no-repeat; }
+#tymMlok a:hover { background: url("images/tym_mlok_big.png") 0 0 no-repeat; }
+#imgMlok { display:block; width:70px; height:93px; background: url("images/tym_mlok_big.png") 0 0 no-repeat; }
+
+#tymFinn a { display:block; width:70px; height:93px; background: url("images/tym_finn_small.png") 10px 27px no-repeat; }
+#tymFinn a:hover { background: url("images/tym_finn_big.png") 0 0 no-repeat; }
+#imgFinn { display:block; width:70px; height:93px; background: url("images/tym_finn_big.png") 0 0 no-repeat; }
+
